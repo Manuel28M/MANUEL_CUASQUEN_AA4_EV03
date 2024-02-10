@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+.habit-section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.habit-section h2 {
+  color: #333;
+}
+
+.habit-section p {
+  color: #555;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilo para las secciones de teoría */
+#alimentacion, #ejercicio, #descanso {
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+#alimentacion h3, #ejercicio h3, #descanso h3 {
+  color: #333;
+  margin-top: 0;
+}
